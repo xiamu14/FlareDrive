@@ -1,8 +1,0 @@
-{
-    "r2_buckets": [
-        {
-            "binding": "webdav",
-            "bucket_name": "clips"
-        }
-    ]
-}
