@@ -29,7 +29,7 @@ Steps:
    - Select `Docusaurus` framework preset
    - Set `WEBDAV_USERNAME` and `WEBDAV_PASSWORD`
    - (Optional) Set `WEBDAV_PUBLIC_READ` to `1` to enable public read
-2. After initial deployment, bind your R2 bucket to `BUCKET` variable
+2. After initial deployment, bind your R2 bucket to `BUCKET` variable (on page)
 3. Retry deployment in `Deployments` page to apply the changes
 4. (Optional) Add a custom domain
 
@@ -51,8 +51,4 @@ You must upload large files through the web interface which supports chunked upl
 
 ## Acknowledgments
 
-WebDAV related code is based on [r2-webdav](
-  https://github.com/abersheeran/r2-webdav
-) project by [abersheeran](
-  https://github.com/abersheeran
-).
+WebDAV related code is based on [r2-webdav](https://github.com/abersheeran/r2-webdav) project by [abersheeran](https://github.com/abersheeran).
