@@ -68,12 +68,12 @@ function FileGrid({
             }}
             sx={{ userSelect: "none" }}
           >
-            <ListItemIcon>
+            <ListItemIcon style={{ width: 56, height: 70, overflow: "hidden" }}>
               {file.customMetadata?.thumbnail ? (
                 <img
                   src={`/webdav/_$flaredrive$/thumbnails/${file.customMetadata.thumbnail}.png`}
                   alt={file.key}
-                  style={{ width: 36, height: 36, objectFit: "cover" }}
+                  style={{ width: 50, height: 88 }}
                 />
               ) : (
                 <MimeIcon contentType={file.httpMetadata.contentType} />
